@@ -10,10 +10,10 @@ public class SortArrayList {
 		ArrayList<Integer> number = new ArrayList<>(Arrays.asList(1,2,3,4,5,6));
 		
 		Collections.sort(number);
-		System.out.println("Accesnding order of number" + number);
+		System.out.println("Ascending order of number" + number);
 		
 		Collections.sort(number, Collections.reverseOrder());
-		System.out.println("Decending order of number" + number);
+		System.out.println("Descending order of number" + number);
 		
 
 	}
